@@ -4,7 +4,7 @@ import "./assets/styles/App.css";
 import Compaines from "./components/Compaines";
 import Residencies from "./components/Residencies";
 import Value from "./components/Value";
-
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Compaines />
       <Residencies />
       <Value />
+      <Contact />
     </div>
   );
 }

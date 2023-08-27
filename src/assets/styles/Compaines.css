@@ -6,3 +6,24 @@
 .c-container > img {
   width: 9rem;
 }
+
+@media (max-width: 768px) {
+  .comp {
+    flex-direction: row !important;
+  }
+  .c-container {
+    justify-content: space-around !important;
+  }
+  .f-container {
+    justify-content: space-around !important;
+  }
+}
+@media (max-width: 520px) {
+  .comp {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+  .search-bar > input {
+    width: 37%;
+  }
+}

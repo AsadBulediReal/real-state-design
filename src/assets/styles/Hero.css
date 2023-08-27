@@ -2,7 +2,7 @@
   color: white;
   position: relative;
   padding: 2rem;
- 
+  z-index: 1;
 }
 
 .hero-container {
@@ -39,7 +39,7 @@
 .stats {
   width: 100%;
   justify-content: space-between;
-  gap: 1rem
+  gap: 1rem;
 }
 
 .stat > :nth-child(1) {
@@ -80,4 +80,50 @@
 .image-container > img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 1020px) {
+  .hero-container {
+    margin-top: 2rem;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+
+
+  .image-container {
+    width: 95%;
+    height: 25rem;
+  }
+
+  .h-wrapper {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-container {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .hero-title > h1 {
+    font-size: 2.5rem;
+  }
+
+  .image-container {
+    width: 95%;
+    height: 25rem;
+  }
+
+  .stats {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .stat > :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .stat > :nth-child(2) {
+    font-size: 0.8rem;
+  }
 }

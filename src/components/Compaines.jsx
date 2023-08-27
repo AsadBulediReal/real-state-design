@@ -5,7 +5,7 @@ import "../assets/styles/Compaines.css";
 const Compaines = () => {
   return (
     <section className="c-wrapper">
-      <div className="flexCenter paddings innerWidth c-container">
+      <div className="flexCenter paddings innerWidth c-container comp">
         <img src="./prologis.png" alt="prologis" />
         <img src="./tower.png" alt="tower" />
         <img src="./equinix.png" alt="equinix" />

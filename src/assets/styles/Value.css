@@ -53,3 +53,18 @@
 .secondaryText {
   margin-bottom: 20px;
 }
+
+@media (max-width: 1024px) {
+  .v-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordionButton .primaryText {
+    font-size: 0.8rem;
+  }
+  .v-right{
+    gap: 1rem;
+  }
+}

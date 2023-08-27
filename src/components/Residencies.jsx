@@ -17,7 +17,7 @@ const SliderButtons = () => {
 
 const Residencies = () => {
   return (
-    <section className="r-wrapper">
+    <section id="Residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
           <h1 className="orangeText">Best Choices</h1>

@@ -7,12 +7,12 @@ const Header = () => {
         <img src="./logo.png" alt="logo" width={100} />
 
         <div className="flexCenter h-menu">
-          <a href="">Residencies</a>
-          <a href="">Our Value</a>
-          <a href="">Contact Us</a>
-          <a href="">Get Started</a>
+          <a href="#Residencies">Residencies</a>
+          <a href="#value">Our Value</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#get-started">Get Started</a>
           <button className="btn">
-            <a href="">Contact</a>
+            <a href="#">Contact</a>
           </button>
         </div>
       </div>

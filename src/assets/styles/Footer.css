@@ -1,0 +1,16 @@
+.f-container {
+  justify-content: space-between;
+}
+.f-right {
+  align-items: center;
+}
+
+.f-menu {
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.f-menu > a {
+  font-size: 1rem;
+  font-weight: 600;
+}
